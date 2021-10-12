@@ -31,7 +31,7 @@ namespace SeleniumCsharpnetcore
         [Test]
         public void Test1()
         {
-           // Console.WriteLine("Setup");
+            Console.WriteLine("Setup");
 
             Assert.Pass();
         }
