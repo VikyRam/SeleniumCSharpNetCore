@@ -17,5 +17,9 @@
   <ItemGroup>
     <None Remove="Selenium.WebDriver" />
     <None Remove="NuGet.PackageManagement" />
+    <None Remove="Pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
   </ItemGroup>
 </Project>

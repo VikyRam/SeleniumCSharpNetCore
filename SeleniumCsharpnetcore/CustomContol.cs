@@ -1,10 +1,13 @@
 ﻿using System;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 
 namespace SeleniumCsharpnetcore
 {
     public class CustomContol: DriverHelper
     {
+
+      
         public static void Combobox(string controlName, string value)
         {
             IWebElement mealsCombo = Driver.FindElement(By.XPath($"//input[@id='{controlName}-awed']"));
@@ -13,5 +16,8 @@ namespace SeleniumCsharpnetcore
             Driver.FindElement(By.XPath($"//div[@id='{controlName}-dropmenu']//li[text()='Almond']")).Click();
 
         }
+
+
+        
     }
 }
