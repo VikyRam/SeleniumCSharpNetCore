@@ -14,12 +14,11 @@
     <PackageReference Include="NuGet.PackageManagement" Version="5.11.0" />
   </ItemGroup>
 
+  
   <ItemGroup>
-    <None Remove="Selenium.WebDriver" />
-    <None Remove="NuGet.PackageManagement" />
-    <None Remove="Pages\" />
+    <Folder Include="Pagess\" />
+    <Folder Include="Features\" />
+    <Folder Include="Steps\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pages\" />
-  </ItemGroup>
+  
 </Project>
